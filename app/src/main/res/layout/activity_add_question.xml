@@ -1,0 +1,112 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".AddQuestionActivity">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        android:gravity="center">
+
+        <EditText
+            android:id="@+id/txtQuestion"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:ems="10"
+            android:hint="Question"
+            android:layout_marginBottom="10dp"
+            android:inputType="textPersonName" />
+
+        <EditText
+            android:id="@+id/txtOptionA"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:ems="10"
+            android:hint="Option A"
+            android:layout_marginBottom="10dp"
+            android:inputType="textPersonName" />
+
+        <EditText
+            android:id="@+id/txtOptionB"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:ems="10"
+            android:hint="Option B"
+            android:layout_marginBottom="10dp"
+            android:inputType="textPersonName" />
+
+        <EditText
+            android:id="@+id/txtOptionC"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:ems="10"
+            android:hint="Option C"
+            android:inputType="textPersonName" />
+
+        <EditText
+            android:id="@+id/txtOptionD"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:ems="10"
+            android:hint="Option D"
+            android:layout_marginBottom="10dp"
+            android:inputType="textPersonName" />
+
+        <TextView
+            android:id="@+id/txtAnswerHeader"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="10dp"
+            android:text="What is the answer ?" />
+
+        <RadioGroup
+            android:id="@+id/radioGroup"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="10dp"
+            android:layout_gravity="center_horizontal"
+            android:gravity="center_horizontal"
+            android:orientation="horizontal">
+
+            <RadioButton
+                android:id="@+id/rbOptionA"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:checked="true"
+                android:onClick="onRadioButtonClicked"
+                android:text="A" />
+            <RadioButton
+                android:id="@+id/rbOptionB"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:onClick="onRadioButtonClicked"
+                android:text="B"/>
+            <RadioButton
+                android:id="@+id/rbOptionC"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:onClick="onRadioButtonClicked"
+                android:text="C"/>
+            <RadioButton
+                android:id="@+id/rbOptionD"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:onClick="onRadioButtonClicked"
+                android:text="D"/>
+
+        </RadioGroup>
+
+        <Button
+            android:id="@+id/btnAddQuestion"
+            android:layout_width="184dp"
+            android:layout_height="50dp"
+            android:text="@string/addQuestion_button_name"
+            android:onClick="addQuestion" />
+
+    </LinearLayout>
+
+</android.support.constraint.ConstraintLayout>

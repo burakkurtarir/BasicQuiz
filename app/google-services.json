@@ -1,0 +1,40 @@
+{
+  "project_info": {
+    "project_number": "968179730805",
+    "firebase_url": "https://basic-quiz-66cd1.firebaseio.com",
+    "project_id": "basic-quiz-66cd1",
+    "storage_bucket": "basic-quiz-66cd1.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:968179730805:android:d0dcb032d1c0cb78d86b3c",
+        "android_client_info": {
+          "package_name": "com.example.basicquiz"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "968179730805-jdiqrkv3gp5enkees7dsio8e113eqf7a.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyD9grW7l33K-n4UNSsTsYttoLnZkEuB_-4"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "968179730805-jdiqrkv3gp5enkees7dsio8e113eqf7a.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
